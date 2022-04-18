@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conferencia BS As</title>
+
+    <!-- Link al CSS de Bootstrap -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+
+    <!-- CSS Local -->
+    <link rel="stylesheet" href="./CSS/style.css">
+
+</head>
+
+<body>
+
+    <!-- NAVIGATION VAR -->
+    <div class="navbar">
+        <div class="container navbar-grid">
+            <div class="logo-region">
+                <img src="./images/codoacodo.png" class="navbar-logo" alt="">
+                <h2>Conf Bs As</h2>
+            </div>
+
+            <div class="menu-region">
+                <nav>
+                    <ul>
+                        <li><a href="#" class="la-conferencia">La conferencia</a></li>
+                        <li><a href="#">Los oradores</a></li>
+                        <li><a href="#">El lugar y la fecha</a></li>
+                        <li><a href="#">Conviértete en orador</a></li>
+                        <li><a href="#" class="comprar-tickets">Comprar tickets</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- SHOWCASE -->
+    <section class="showcase">
+        <div class="showcase-shadow">
+            <div class="container showcase-grid">
+                <div class="showcase-content">
+                    <div class="showcase-text">
+                        <h1>Conf Bs As</h1>
+                        <p>Bs As llega por primera vez a Argentina. Un eveto para compratir con nuestra comunidad el
+                            conocimiento y experiencia de los expertos que estan creando el futuro de Internet. Ven a
+                            conocer a
+                            miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que
+                            tenemos
+                            para ti. Te esperamos!</p>
+                    </div>
+                    <div class="showcase-buttons">
+                        <a href="#" target="_blank" class="btn-transparent">Quiero ser orador</a>
+                        <a href="#" class="btn-solid">Comprar tickets</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- ORADORES -->
+    <div class="oradores">
+        <div class="title">
+            <h5>CONOCE A LOS</h5>
+            <h1>ORADORES</h1>
+        </div>
+
+        <div class="container-md">
+            <div class="card">
+                <img src="./images/steve.jpg" alt="Steve Jobs">
+                <div class="card-text">
+                    <div class="skills">
+                        <span class="yellow">JavaScript</span><span class="green">React</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit non libero nisi eos molestiae,
+                        architecto esse expedita est adipisci sint.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/bill.jpg" alt="Bill Gates">
+                <div class="card-text">
+
+                    <div class="skills">
+                        <span class="yellow">JavaScript</span><span class="green">React</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit non libero nisi eos molestiae,
+                        architecto esse expedita est adipisci sint.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/ada.jpeg" alt="Ada Lovelace">
+                <div class="card-text">
+
+                    <div class="skills">
+                        <span class="grey">Negocios</span><span class="red">Startups</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit non libero nisi eos molestiae,
+                        architecto esse expedita est adipisci sint.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- CALL TO ACTION -->
+    <section class="calltoaction">
+        <div class="calltoaction-flex">
+            <div class="beach">
+                <img src="./images/honolulu.jpg" alt="Honolulu">
+            </div>
+            <div class="text">
+                <h1>Bs As - Octubre</h1>
+                <p>Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos.
+                    Honolulu es la mas sureña de entre las principales ciudades estadounidenses. Aunque el nombre de
+                    Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de
+                    Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600
+                    km2 de superficie.</p>
+                <a href="#" class="btn-transparent">Conocé más</a>
+            </div>
+        </div>
+    </section>
+
+        <!-- CONVIERTETE EN ORADOR -->
+
+    <section class="section-form">
+        <div class="title">
+            <h5>CONVIERTETE EN UN</h5>
+            <h1>ORADOR</h1>
+            <p>Anótate como orador para dar una <span>charla ignite. </span>Cuéntamos de qué quieres hablar!</p>
+        </div>
+        <div class="container-sm">
+            <form action="" class="form-orador">
+                     <input class="input-first" type="text" id="first-name" name="first-name" placeholder="Nombre" autocomplete="first-name" required>
+                     <input class="input-last" type="text" id="last-name" name="last-name" placeholder="Apellido" autocomplete="last-name" required>
+                     <!-- <input class="input-about" type="" id="about" name="about" placeholder="Sobre qué quieres hablar?" autocomplete="about" required> -->
+                     <textarea class="input-about" placeholder="Sobre qué quieres hablar?"  name="about" id="about" cols="30" rows="5"></textarea>
+                     <p>Recuerda incluir un títilo para tu charla</p>
+                     <input type="submit" value="Enviar" class="btn-form">
+            </form>
+            
+        </div>
+
+    </section>
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script> -->
+</body>
+
+</html>
